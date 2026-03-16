@@ -155,7 +155,17 @@ export default function SearchableContent({
               this is a place to find other cool people at mary washington, a
               directory of the students who make the school more interesting.
             </p>
-            <p>want to join? submit a pull request to this repository.</p>
+            <p>
+              want to join? submit a pull request to{" "}
+              <a
+                href="https://github.com/kurealnum/umw.network"
+                className="join-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                this repository.
+              </a>
+            </p>
             <p>
               adapted from{" "}
               <a
