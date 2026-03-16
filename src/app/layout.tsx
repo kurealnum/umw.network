@@ -17,15 +17,15 @@ export const metadata: Metadata = {
   title: "umw.network",
   description: "A webring for University of Mary Washington students",
   icons: {
-    icon: '/favicon.svg',
+    icon: "/favicon.svg",
   },
   openGraph: {
     title: "umw.network",
     description: "A webring for University of Mary Washington students",
-    type: 'website',
+    type: "website",
   },
   twitter: {
-    card: 'summary_large_image',
+    card: "summary_large_image",
     title: "umw.network",
     description: "A webring for University of Mary Washington students",
   },
@@ -39,9 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <ThemeProvider>
-          {children}
-        </ThemeProvider>
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );
