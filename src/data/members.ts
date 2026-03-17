@@ -126,6 +126,20 @@ export const members: Member[] = [
     bluesky: "https://bsky.app/profile/kureal.bsky.social",
     connections: [],
   },
+  {
+    id: "CWagamanEure",
+    name: "Cory Wagaman-Eure",
+    website: "https://corywagamaneure.com",
+    program: "Computer Science",
+    roles: ["engineering", "research", "quant"],
+    verticals: ["fintech", "web3"], 
+    profilePic: "/photos/cory-wagaman-eure.jpg",
+    instagram: "",
+    twitter: "https://x.com/EureCory",
+    linkedin: "https://www.linkedin.com/in/corywagamaneure/",
+    bluesky: "",
+    connections: [],
+  },
 
   // ADD YOUR ENTRY ABOVE THIS LINE
   // ============================================
